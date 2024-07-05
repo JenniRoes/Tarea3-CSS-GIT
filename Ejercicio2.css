@@ -1,0 +1,28 @@
+.rojo {
+    background: #db5a3a;
+    top: 0;
+    margin-left: 0;
+}
+.verde {
+    background: #8bd48b;
+    top: 100px;
+    margin-left: 100px;
+}
+.morado{
+    background: #9e63e2;
+    top: 100px;
+    margin-left: 200px;
+}
+
+.box {
+    width: 100px; 
+    height: 100px;
+    border: 1px solid black; 
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+   
+}
