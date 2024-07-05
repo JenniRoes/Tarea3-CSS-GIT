@@ -1,0 +1,38 @@
+.rojo {
+    display: flex;
+    background: #db5a3a;
+    margin-top: 10px;
+}
+.rojo:hover {
+    width: 300px;
+}
+
+.verde {
+    display: flex;
+    background: #8bd48b;
+    margin-top: 10px;
+}
+.verde:hover {
+
+    margin-left: 100px;
+}
+
+.morado{
+    display: flex;
+    background: #9e63e2;
+    margin-top: 10px;
+}
+.morado:hover {
+    background: #f9bc60;
+}
+
+.box {
+    width: 100px; 
+    height: 100px;
+    border: 1px solid black; 
+}
+
+.container { 
+    align-items: center; 
+    margin: auto;
+}
