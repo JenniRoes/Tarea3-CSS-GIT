@@ -1,0 +1,37 @@
+.rojo {
+    background: #db5a3a;
+    margin-top: 20px;
+}
+.verde {
+    background: #8bd48b;
+    margin-top: 20px;
+}
+.morado{
+    background: #9e63e2;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; 
+    height: 100px;
+    border: 1px solid black; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 350px; 
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .container {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+  }
